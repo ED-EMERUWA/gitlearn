@@ -1,1 +1,2 @@
-git dd remote orgign url
+git remote add orgign url
+git push origin master
