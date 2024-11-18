@@ -1,2 +1,8 @@
-git remote add orgign url
-git push origin master(this is a local branch)
+git remote add orgign url(adds the remotoe repo under the variable name origin)
+
+to push your branch to remote:
+git push origin master(this is a local branch/ it will create it if it soesnt exist and update if it does)
+git reomte --set-upstream origin master
+
+to push to a remote branch( that is completely remote):
+git push origin local(the local branch):remote_branch(thus is a remote branch)
